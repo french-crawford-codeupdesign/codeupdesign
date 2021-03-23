@@ -36,13 +36,13 @@ h1 {
 }
 
 .nav-link {
-    /*color: var(--main-link-color);*/
+    color: black;
     font-weight: bold;
     text-decoration: none;
 }
 
 .nav-link:hover {
-    /*color: var(--link-color);*/
+    color: #E6563B;
 =======
 }
 
