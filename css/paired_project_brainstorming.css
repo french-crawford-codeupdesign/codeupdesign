@@ -10,8 +10,9 @@
 div.white-strip{
     background-color: white;
     width: 100%;
-    height: 10em;
-    float: left;
+    height: 16em;
+    position:relative;
+    z-index: 1000;
 
 }
 
@@ -22,12 +23,19 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Abel', sans-serif;
+    position: absolute;
 }
 
 h1 {
     color: black;
     font-family: 'Anton', sans-serif;
 }
+
+h1 {font-size: 4em;}
+h2 {font-size: 3em;}
+h3 {font-size: 2.5em;}
+h4 {font-size: 2em;}
+h5 {font-size: 1.75em;}
 
 .nav {
     list-style-type: none;
