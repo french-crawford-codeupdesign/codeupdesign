@@ -1,3 +1,9 @@
 h1 {
     color: black;
 }
+
+div.profile-logo{
+    display: flex;
+    justify-content: center;
+}
+
