@@ -43,5 +43,12 @@ h1 {
 
 .nav-link:hover {
     /*color: var(--link-color);*/
+=======
+}
+
+div.profile-logo{
+    display: flex;
+    justify-content: center;
+>>>>>>> bafa125f4fa28aa1a403fc418d837d9df0eb6612
 }
 
