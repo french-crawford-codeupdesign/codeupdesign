@@ -22,11 +22,18 @@ body, html {
     font-family: 'Abel', sans-serif;
 }
 
-h1 {
+p {
+    color: black;
+    font-size: 6em;
+    font-family: 'Abel', sans-serif;
+    padding: 25px 0px;
+}
+
+h1, h2, h3, h4, h5 {
     color: black;
     font-family: 'Anton', sans-serif;
+
 }
-h2
 
 .nav {
     list-style-type: none;
@@ -34,6 +41,7 @@ h2
     margin: 0;
     display: inline-block;
 }
+
 
 .nav-item {
     list-style-type: none;
@@ -45,15 +53,16 @@ h2
 .nav-link {
     color: black;
     font-weight: bold;
+    font-size: 2em;
     text-decoration: none;
 }
 
 .nav-link:hover {
     color: #E6563B;
-=======
+
 }
 
-div.profile-logo{
+div.profile-logo {
     display: flex;
     justify-content: center
 
