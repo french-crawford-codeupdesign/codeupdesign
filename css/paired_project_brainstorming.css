@@ -84,7 +84,7 @@ div.main-icons{
     font-size: 24px;
     color: white;
     margin-top: 20px;
-
+    flex-flow: column;
 }
 
 div.icon1 {
