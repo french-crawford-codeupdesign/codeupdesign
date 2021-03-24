@@ -7,7 +7,7 @@
     --host-icon: #00ABA9;
 }
 
-.white-strip{
+div.white-strip{
     background-color: white;
     width: 100%;
     height: 16em;
@@ -58,17 +58,9 @@ body, html {
     position: absolute;
 }
 
-p {
-    color: black;
-    font-size: 6em;
-    font-family: 'Abel', sans-serif;
-    padding: 25px 0px;
-}
-
-h1, h2, h3, h4, h5 {
+h1 {
     color: black;
     font-family: 'Anton', sans-serif;
-
 }
 
 h1 {font-size: 4em;}
@@ -87,16 +79,25 @@ div.main-icons{
     flex-flow: column;
 }
 
+<<<<<<< HEAD
 div.icon1 {
     background-color: var(--design-icon);
     padding:10px;
     border: 6px solid white;
+=======
+.nav-item {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1.5em;
+
+>>>>>>> ed88cd723d17d35790cbf1d3e472f257c4ea1ab4
 }
 div.icon2{
     background-color: var(--develop-icon);
     padding:10px;
     border: 6px solid white;
 
+<<<<<<< HEAD
 }
 div.icon3{
     background-color: var(--support-icon);
@@ -107,6 +108,21 @@ div.icon4{
     background-color: var(--host-icon);
     padding:10px;
     border: 6px solid white;
+=======
+.nav-link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #E6563B;
+}
+
+div.profile-logo{
+    display: flex;
+    justify-content: center;
+>>>>>>> ed88cd723d17d35790cbf1d3e472f257c4ea1ab4
 }
 
 
