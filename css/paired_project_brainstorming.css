@@ -16,6 +16,38 @@
 
 }
 
+div.profile-logo {
+    display: flex;
+    justify-content: center
+
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.nav-item {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1.5em;
+
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #E6563B;
+
+}
+
 body, html {
     background-color: var(--main-bg);
     height: 100%;
@@ -45,39 +77,38 @@ h3 {font-size: 2.5em;}
 h4 {font-size: 2em;}
 h5 {font-size: 1.75em;}
 
-.nav {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-}
-
-
-
-.nav-item {
-    list-style-type: none;
-    display: inline-block;
-    padding: 1.5em;
-
-}
-
-.nav-link {
-    color: black;
-    font-weight: bold;
-    font-size: 2em;
-    text-decoration: none;
-}
-
-.nav-link:hover {
-    color: #E6563B;
-
-}
-
-div.profile-logo {
+div.main-icons{
     display: flex;
-    justify-content: center
+    justify-content: center;
+    /*position: relative;*/
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
 
 }
+
+div.icon1 {
+    background-color: var(--design-icon);
+    padding:10px;
+    border: 6px solid white;
+}
+div.icon2{
+    background-color: var(--develop-icon);
+    padding:10px;
+    border: 6px solid white;
+
+}
+div.icon3{
+    background-color: var(--support-icon);
+    padding:10px;
+    border: 6px solid white;
+}
+div.icon4{
+    background-color: var(--host-icon);
+    padding:10px;
+    border: 6px solid white;
+}
+
 
 /*.container {*/
 /*    display: flex;*/
