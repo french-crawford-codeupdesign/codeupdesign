@@ -228,3 +228,11 @@ div.mock-icon4{
     font-size: 12px;
 }
 
+a{
+    color: white;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
