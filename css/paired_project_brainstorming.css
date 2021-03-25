@@ -53,17 +53,19 @@ div.profile-logo {
 .nav-item {
     list-style-type: none;
     display: inline-block;
-    padding: .3em;
 }
+
 .nav-link {
     color: black;
     font-weight: bold;
     font-size: 1.2em;
     text-decoration: none;
 }
+
 .nav-link:hover {
     color: #E6563B;
 }
+
 body, html {
     background-color: var(--main-bg);
     height: 100%;
@@ -73,6 +75,7 @@ body, html {
     font-family: 'Abel', sans-serif;
     position: absolute;
 }
+
 h1 {
     color: black;
     font-family: 'Anton', sans-serif;
@@ -91,7 +94,7 @@ div.main-icons{
     /*display: flex;*/
     /*justify-content: center;*/
     /*position: absolute;*/
-    font-size: 2.5em;
+    font-size: 2em;
     color: white;
     margin-top: 20px;
     /*flex-flow: column;*/
@@ -105,8 +108,8 @@ div.icon1 {
     padding: 10px;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
-    width: 4.25em;
-    height: 4.25em;
+    width: 6em;
+    height: 6em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,8 +120,8 @@ div.icon2 {
     padding:10px;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
-    width: 4.25em;
-    height: 4.25em;
+    width: 6em;
+    height: 6em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,8 +132,8 @@ div.icon3 {
     padding:10px;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
-    width: 4.25em;
-    height: 4.25em;
+    width: 6em;
+    height: 6em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,8 +144,8 @@ div.icon4 {
     padding: 10px;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
-    width: 4.25em;
-    height: 4.25em;
+    width: 6em;
+    height: 6em;
     display: flex;
     justify-content: center;
     align-items: center;
